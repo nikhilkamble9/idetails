@@ -1,0 +1,33 @@
+.Navbar {
+    display: flex;
+    width: 99.356%;
+    height: 65px;
+    padding: 0px 0px 0px 10px;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+    background: black;
+    color: white;
+}
+.Navbar>* {
+    display: flex;
+    width: 50%;
+}
+ul.features {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}
+li.navbarlist {
+    list-style: none;
+    display: flex;
+    width: 15%;
+    align-items: center;
+    padding: 0px 10px;
+}
+li.navbarlist:hover {
+    background-color: cyan;
+    color: white;
+    padding: 0px 10px;
+}
+

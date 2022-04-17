@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500&family=Outfit:wght@100&display=swap');
+.firstsection {
+    background: rgb(0, 0, 0, 0.8) url(https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?cs=srgb&dl=pexels-christina-morillo-1181467.jpg&fm=jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    height: 100vh;
+    font-weight: 900;
+}
+h1 {
+    text-align: center;
+}
+.Frontpage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+.Frontpage>* {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.frontpagefirst {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.step {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    width: 50%;
+    padding: 0px 10px;
+}
+.step:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid cyan;
+    cursor: auto;
+}
+.anchortag {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: cyan;
+}
+.listtag:hover {
+    color: white;
+    border: 3px solid cyan;
+    cursor: pointer;
+    border-radius: 10px;
+    list-style: none;
+    padding: 0px 5px;
+}
+.anchorextension{
+    color: cyan;
+}
+p.para {
+    display: flex;
+    width: 50%;
+    margin: 0px 0px 10px 0px;
+    font-size: x-large;
+    font-weight: bold;
+}

@@ -1,0 +1,42 @@
+.InstallGit {
+    display: flex;
+    flex-direction: column;
+    height: 135vh;
+}
+.steps {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.steps>* {
+    display: flex;
+    width: 50%;
+    align-items: baseline;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+}
+a.gitAnchor {
+    width: 40%;
+    margin-left: 10px;
+    color: cyan;
+}
+p#fivepara {
+    width: 75%;
+}
+.steps>*:hover {
+    color: white;
+    background-color: black;
+    border: 3px solid cyan;
+    border-radius: 10px;
+}
+p#gitpara {
+    border: none;
+    font-weight: 500;
+}
+p#gitpara:hover {
+    background-color: white;
+    color: black;
+}
